@@ -1,0 +1,76 @@
+﻿ 
+ @model BoilerTemplateGeneration.Models.LoginModel;
+
+
+@{
+    ViewData["Title"] = "Login Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@if(TempData["error"]!= null)
+{
+    <script type="text/javascript">
+       toastr.error('@TempData["error"]',{"iconClass": 'toast-error'});
+       
+    </script>
+}
+
+@section Styles
+{
+    <style>
+        .Drop{
+            position:relative;
+        }
+    </style>
+}
+
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Boiler Template User Login</title>
+    <link rel="stylesheet" href="~/css/loginCSS.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form id="myform" asp-action="Index" asp-controller="Login"  method="post">
+        <div class="txt_field">
+          <input type="text" id="username" asp-for="username" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" id="password" asp-for="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" class="btn btn-primary small" value="Login"  form="myform">
+        <div class="signup_link">
+          Not a member? <a href="#">Signup</a>
+        </div>
+      </form>
+    </div>
+
+   
+  </body>
+  
+</html>
+
+@section scripts
+{
+    <script>
+        
+        $(window).on('load',function() {
+                                
+            $('body').removeClass('preload')
+        $('#loading').removeClass('loader-wrapper');
+        $('#loading1').removeClass('loader');
+        $('#loading2').removeClass('loader-inner');
+        });
+    </script>
+}
