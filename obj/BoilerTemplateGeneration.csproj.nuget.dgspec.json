@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BoilerProject\\BoilerTemplateGeneration\\FrontEnd\\BoilerTemplateGeneration\\BoilerTemplateGeneration.csproj": {}
+    "D:\\BoilerProject\\BoilerTemplateGeneration\\BoilerTemplateGeneration\\BoilerTemplateGeneration.csproj": {}
   },
   "projects": {
-    "D:\\BoilerProject\\BoilerTemplateGeneration\\FrontEnd\\BoilerTemplateGeneration\\BoilerTemplateGeneration.csproj": {
+    "D:\\BoilerProject\\BoilerTemplateGeneration\\BoilerTemplateGeneration\\BoilerTemplateGeneration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BoilerProject\\BoilerTemplateGeneration\\FrontEnd\\BoilerTemplateGeneration\\BoilerTemplateGeneration.csproj",
+        "projectUniqueName": "D:\\BoilerProject\\BoilerTemplateGeneration\\BoilerTemplateGeneration\\BoilerTemplateGeneration.csproj",
         "projectName": "BoilerTemplateGeneration",
-        "projectPath": "D:\\BoilerProject\\BoilerTemplateGeneration\\FrontEnd\\BoilerTemplateGeneration\\BoilerTemplateGeneration.csproj",
+        "projectPath": "D:\\BoilerProject\\BoilerTemplateGeneration\\BoilerTemplateGeneration\\BoilerTemplateGeneration.csproj",
         "packagesPath": "C:\\Users\\sujit\\.nuget\\packages\\",
-        "outputPath": "D:\\BoilerProject\\BoilerTemplateGeneration\\FrontEnd\\BoilerTemplateGeneration\\obj\\",
+        "outputPath": "D:\\BoilerProject\\BoilerTemplateGeneration\\BoilerTemplateGeneration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
