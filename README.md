@@ -7,4 +7,4 @@ Tech Stacks- ASP.Net core , Entity Framework, JavaScript, Html-Css,MySql, C#.
 UserName- 'abc@gmail.com'
 Password- 'demo123'
 
-For the overview one can login in the page and using the above credential.
+For the overview one can login in the page using the above mentioned credential.
